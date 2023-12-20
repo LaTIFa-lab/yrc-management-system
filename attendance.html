@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/generalStyles.css">
+    <link rel="stylesheet" href="assets/css/993455e.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-Qy4A5HP/G3Mx2tmhksu7H19g9vNMUnsfisUso9/jEiZKLZbQI8VZMn+YtT1h8mmQuoVyQzzGZd35j8CC1UqwNw==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/css/staff.css">
+    <title>YRC Management System Attendance Page</title>
+</head>
+<body>
+   <!-- Hello "Developer" this is the Visitor page  -->
+
+   <!-- for the left -->
+    <div class="navbar"><!--this is the navbar -->
+        <div class="center"> <!-- this holds everything inside the navbar-->
+            <div class="top">
+                <img src="assets/images/yrc.svg"><h3>THE YRC ATTENDANCE PAGE</h3>
+            </div>
+            
+                <div class="options"> <!--this holds the options in navbar -->
+                    <a href="./dashboard.html">
+                        <div class="option"><!-- An example of one option. you can duplicate for more. Note icons are in svg formats!-->
+                       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M19 5V7H15V5H19ZM9 5V11H5V5H9ZM19 13V19H15V13H19ZM9 17V19H5V17H9ZM21 3H13V9H21V3ZM11 3H3V13H11V3ZM21 11H13V21H21V11ZM11 15H3V21H11V15Z" fill="inherit"/>
+                           </svg><h3 class="otext">Dashboard</h3>
+                   </div></a>
+                   <a href="troup.html">
+                       <div class="option">
+                       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M4 13C5.1 13 6 12.1 6 11C6 9.9 5.1 9 4 9C2.9 9 2 9.9 2 11C2 12.1 2.9 13 4 13ZM5.13 14.1C4.76 14.04 4.39 14 4 14C3.01 14 2.07 14.21 1.22 14.58C0.48 14.9 0 15.62 0 16.43V18H4.5V16.39C4.5 15.56 4.73 14.78 5.13 14.1ZM20 13C21.1 13 22 12.1 22 11C22 9.9 21.1 9 20 9C18.9 9 18 9.9 18 11C18 12.1 18.9 13 20 13ZM24 16.43C24 15.62 23.52 14.9 22.78 14.58C21.93 14.21 20.99 14 20 14C19.61 14 19.24 14.04 18.87 14.1C19.27 14.78 19.5 15.56 19.5 16.39V18H24V16.43ZM16.24 13.65C15.07 13.13 13.63 12.75 12 12.75C10.37 12.75 8.93 13.14 7.76 13.65C6.68 14.13 6 15.21 6 16.39V18H18V16.39C18 15.21 17.32 14.13 16.24 13.65ZM8.07 16C8.16 15.77 8.2 15.61 8.98 15.31C9.95 14.93 10.97 14.75 12 14.75C13.03 14.75 14.05 14.93 15.02 15.31C15.79 15.61 15.83 15.77 15.93 16H8.07ZM12 8C12.55 8 13 8.45 13 9C13 9.55 12.55 10 12 10C11.45 10 11 9.55 11 9C11 8.45 11.45 8 12 8ZM12 6C10.34 6 9 7.34 9 9C9 10.66 10.34 12 12 12C13.66 12 15 10.66 15 9C15 7.34 13.66 6 12 6Z" fill="inherit"/>
+                           </svg><h3 class="otext">Troupe</h3>
+                   </div></a>
+                   <a href="./staff.html">
+                   <div class="option">
+                       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M9.68 13.19L12 11.43L14.31 13.19L13.43 10.34L15.75 8.5H12.91L12 5.69L11.09 8.5H8.25L10.56 10.34L9.68 13.19ZM20 9.5C20 5.08 16.42 1.5 12 1.5C7.58 1.5 4 5.08 4 9.5C4 11.53 4.76 13.37 6 14.78V22.5L12 20.5L18 22.5V14.78C19.24 13.37 20 11.53 20 9.5ZM12 3.5C15.31 3.5 18 6.19 18 9.5C18 12.81 15.31 15.5 12 15.5C8.69 15.5 6 12.81 6 9.5C6 6.19 8.69 3.5 12 3.5ZM12 18.5L8 19.52V16.42C9.18 17.1 10.54 17.5 12 17.5C13.46 17.5 14.82 17.1 16 16.42V19.52L12 18.5Z" fill="inherit"/>
+                           </svg>
+                           <h3 class="otext">Staffs</h3>
+                   </div></a>
+                   <a href="./visitors.html">
+                   <div class="option">
+                       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M7.03 4.95L3.49 8.49C0.17 11.81 0.17 17.19 3.49 20.51C6.81 23.83 12.19 23.83 15.51 20.51L21.52 14.5C22.49 13.53 22.49 11.94 21.52 10.96C21.4 10.84 21.27 10.73 21.13 10.64L21.52 10.25C22.49 9.28 22.49 7.69 21.52 6.71C21.36 6.55 21.17 6.41 20.98 6.3C21.38 5.38 21.21 4.28 20.46 3.53C19.59 2.66 18.24 2.57 17.26 3.25C17.16 3.1 17.05 2.96 16.92 2.83C15.95 1.86 14.36 1.86 13.38 2.83L10.87 5.34C10.78 5.2 10.67 5.07 10.55 4.95C9.58 3.98 8 3.98 7.03 4.95ZM8.44 6.37C8.64 6.17 8.95 6.17 9.15 6.37C9.35 6.57 9.35 6.88 9.15 7.08L5.97 10.26C7.14 11.43 7.14 13.33 5.97 14.5L7.38 15.91C8.83 14.46 9.2 12.34 8.5 10.55L14.8 4.25C15 4.05 15.31 4.05 15.51 4.25C15.71 4.45 15.71 4.76 15.51 4.96L10.91 9.56L12.32 10.97L18.33 4.96C18.53 4.76 18.84 4.76 19.04 4.96C19.24 5.16 19.24 5.47 19.04 5.67L13.03 11.68L14.44 13.09L19.39 8.14C19.59 7.94 19.9 7.94 20.1 8.14C20.3 8.34 20.3 8.65 20.1 8.85L14.44 14.51L15.85 15.92L19.39 12.38C19.59 12.18 19.9 12.18 20.1 12.38C20.3 12.58 20.3 12.89 20.1 13.09L14.1 19.1C11.56 21.64 7.45 21.64 4.91 19.1C2.37 16.56 2.37 12.45 4.91 9.91L8.44 6.37ZM23 17C23 20.31 20.31 23 17 23V21.5C19.48 21.5 21.5 19.48 21.5 17H23ZM1 7C1 3.69 3.69 1 7 1V2.5C4.52 2.5 2.5 4.52 2.5 7H1Z" fill="inherit"/>
+                           </svg><h3 class="otext">Visitors</h3>
+                   </div></a>
+                   <a href="./attendance.html">
+                   <div class="option active">
+                       <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                           <path d="M19 4H18V2H16V4H8V2H6V4H5C3.89 4 3.01 4.9 3.01 6L3 20C3 21.1 3.89 22 5 22H19C20.1 22 21 21.1 21 20V6C21 4.9 20.1 4 19 4ZM19 20H5V10H19V20ZM19 8H5V6H19V8ZM9 14H7V12H9V14ZM13 14H11V12H13V14ZM17 14H15V12H17V14ZM9 18H7V16H9V18ZM13 18H11V16H13V18ZM17 18H15V16H17V18Z" fill="inherit"/>
+                           </svg><h3 class="otext">Attendance</h3>
+                   </div></a>
+               </div>
+          <div class="logout">
+              <img src="assets/images/ico/logout.svg"><h3>Logout</h3>
+          </div>
+      </div>
+  </div>
+
+
+
+    <!-- for the right -->
+    <div class="body">
+        <!-- This is for the right -->
+       <div class="yrc002">
+        <img src="assets/images/img/Frame 7.png" alt="" height="90px">
+       </div>
+
+       <div class="flex">
+
+       
+       <div class="div">
+
+           <img src="./assets/images/img/Group 8 (1).png" alt="" height="220px">
+       </div>
+       <div class="try">
+    <img src="./assets/images/img/Group 9.png" alt="" height="220px">
+    </div>
+</div>
+
+    </div>
+</div>
+
+    <!-- scripiting area  -->
+    <script src="assets/js/animations.js"></script><!--animation js-->
+</body>
+</html>

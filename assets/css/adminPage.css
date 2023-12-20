@@ -1,0 +1,170 @@
+/* note this is only linked to index.html */
+ body{
+    display: flex;
+    overflow: hidden;
+ }
+
+.rightSide{
+    width: 50%;
+    height: 100%;
+    background-color: var(--secondaryColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formWraper{ /*this is the form wrapper holding everything on the form */
+    width: 30em;
+    height: 35em;
+    background: var(--lightBackground);
+    background-image: url(../images/0034.svg);
+    background-position: center;
+    background-size: 230%;
+    border-radius: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+form{ /*this is the form*/
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+form button{
+    width: 65%;
+    height: 2.8em;
+    border-radius: .3em;
+    background: var(--primaryColor);
+    color: var(--text2);
+    font-size: 15px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}form button img{width: var(--iconSize);height: var(--iconSize);margin-left:.5em;} /* for the button image*/
+
+form button:active{
+    filter: brightness(70%);
+}
+
+.topText{
+    width: 100%;
+    margin: .2em;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--text);
+}
+
+.inputGroup{ /*this holds the input and the icon*/
+    width: 65%;
+    height: 2.8em;
+    border: 1.9px solid var(--onSurfaceVariant);
+    border-radius: .3em;
+    margin: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forgotP{
+    width: 65%;
+    font-size: 14px;
+    margin: 0em 0em 1em 0em;
+    color: var(--primaryColor);
+    cursor: pointer;
+}
+
+/* this is the text under the Head text */
+.subText{
+    font-size: 14px;
+    margin-bottom:1.5em;
+}
+
+
+/* for input icons */
+.Ipassword{
+    background: url(../images/ico/password.svg);
+    background-position: 97%;
+    background-size: var(--iconSize);
+    background-repeat: no-repeat;
+}
+
+.Iemail{
+    background: url(../images/ico/user.svg);
+    background-position: 97%;
+    background-size: var(--iconSize);
+    background-repeat: no-repeat;
+}
+
+/* for the input field */
+
+input{
+    width: 85%;
+    margin: 0 auto 0 .8em;
+    background: transparent;
+}
+
+/* for the left side */
+
+.logo{ /* this is the logo container */
+    width: 4.5em;
+    height: 5em;
+    background: url(../images/yrc.svg) center/contain no-repeat;
+    position: absolute;
+    top: 2.5em;
+    left: 2.5em;
+}
+
+.leftSide{ /* left body */
+    width: 50%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentHolder{ /* this is the contianer that holds the illustration and the text at the middle*/
+    width: 38em;
+    min-height: 38em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.copyRights{
+    font-size: 13px;
+    position: absolute;
+    bottom: 2em;
+    color: var(--secondaryColor);
+}
+
+.header1{ /*this holds all the texts inside the container*/
+    width: 90%;
+    height: fit-content;
+    text-align: center;
+}
+
+.header1 h2{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.header1 h4{
+    font-size: 12.5px;
+    font-weight: 500;
+}
+
+.illustration{ /*this is the illustration*/
+    width: 95%;
+    height: 31em;
+    background: url(../images/back.svg) center/cover no-repeat;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/yrc.svg" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/generalStyles.css">
+    <link rel="stylesheet" href="assets/css/adminPage.css">
+    <link rel="stylesheet" href="assets/res/res.css">
+    <title>YRC Management System</title>
+</head>
+<body>
+   <!-- Hello "Developer" this is the admin page  -->
+
+   <!-- this is for the left part of the page -->
+   <div class="leftSide">
+        <div class="logo"></div>
+        <div class="contentHolder">
+            <div class="header1"> <!-- This holds all the texts -->
+                <h4>YRC MANAGEMENT SYSTEM</h4>
+                <h2>For an improved data collection and management experience</h2>
+            </div>
+            <div class="illustration"></div><!--this is the illustration div geting its background image from css -->
+        </div>
+        <p class="copyRights">Copyright &copy; 2023 By CODEX Technologies | All Rights Reserved</p>
+   </div>
+
+   <!-- this is for the right part of the page -->
+   <div class="rightSide">
+        <div class="formWraper">
+            <form action="dashboard.html">
+                <!-- inside the form -->
+                <h3 class="topText">Welcome Back!</h3> <!-- head text-->
+                <h5 class="subText">Login to access the database</h5>
+                <div class="inputGroup Iemail"><!--Input Group -->
+                    <input type="text" name="admin_username" placeholder="Userame" autocomplete="off" required>
+                </div>
+                <div class="inputGroup Ipassword">
+                    <input type="password" name="admin_password" placeholder="Password" autocomplete="off" required>
+                </div>
+                <h4 class="forgotP">Forgot password?</h2>
+                <button type="submit">Login <img src="assets/images/ico/login.svg"></button><!-- submit button -->
+            </form>
+        </div>
+   </div>
+    <!-- scripiting area  -->
+    <script src="assets/js/animations.js"></script><!--animation js-->
+</body>
+</html>
